@@ -1,0 +1,83 @@
+//这是一个代码示例
+!==LCODE-LTHEME EDITION 2.0.0==!  //申明代码版本
+CopyRightInfo{        //版权信息
+    Name:作者姓名;
+    EMail:作者邮箱;
+    Date:创作日期;
+    Works:作品名称;
+    Edition:作品版本号;
+    WebSite:作者网站链接;//可选填
+}
+ThemeColor="填写启动器官方提供的主题配色方案"  //3.0.0新增特征
+Show{  //展示参数 1.1.0更新内容
+    Img:('图片地址');
+    Works:作品名称;
+    Introduce:作品介绍;
+}
+BackGroundMusic:('音乐地址');  //启动器背景音乐 1.0.2更新内容
+BackGround:('图片地址');//启动器整体背景图片
+//--
+FrameColor:'颜色';//启动器整体边框颜色
+--//
+//--
+BackGroundColor:'颜色';//启动器主题颜色（建议与背景图片一致）
+--//
+HeadPortrait{   //默认头像
+    Img:('图片地址');//默认头像图片
+    BackGroundColor:'颜色';//默认头像背景色
+} 
+//--  
+ButtonColor{  //按钮样式
+    Activation{  //拥有鼠标焦点时
+        BackGroundColor:'颜色';   //背景色
+        FontColor:'颜色';  //字体色
+    }
+    NotActive{  //未拥有鼠标焦点时
+        BackGroundColor:'颜色';  //背景色
+        FontColor:'颜色';  //字体色
+    }
+    Click{  //鼠标点击时（此属性可忽略）
+        BackGroundColor:'颜色';  //背景色
+        FontColor:'颜色';  //字体色
+    }
+}
+--//
+2.0.0-Features{  //2.0.0新增特征  2.0.0更新内容
+    MainPage{
+        #PersonalCenter{  //“个人中心”圆球的属性
+            BackGroundColor:颜色;  //背景色
+            Transparency:透明度%;  //透明度，100%为不透明
+            FontColor:颜色;  //字体颜色
+            Icon:('图片地址.png'); //ICON地址，必须为本地地址且为PNG透明矢量图
+        }
+        #NewsCenter{  //“新闻中心”圆球的属性
+            BackGroundColor:颜色;  //背景色
+            Transparency:透明度%;  //透明度，100%为不透明
+            FontColor:颜色;  //字体颜色
+            Icon:('图片地址.png'); //ICON地址，必须为本地地址且为PNG透明矢量图  
+        }
+        #Park{  //“广场”圆球的属性
+            BackGroundColor:颜色;  //背景色
+            Transparency:透明度%;  //透明度，100%为不透明
+            FontColor:颜色;  //字体颜色
+            Icon:('图片地址.png'); //ICON地址，必须为本地地址且为PNG透明矢量图
+        }
+        #Recharge{  //“充值/赞助”圆球的属性
+            BackGroundColor:颜色;  //背景色
+            Transparency:透明度%;  //透明度，100%为不透明
+            FontColor:颜色;  //字体颜色
+            Icon:('图片地址.png'); //ICON地址，必须为本地地址且为PNG透明矢量图
+        }
+    }
+    PromptWindow{  //弹窗属性
+        FontColor:颜色;  //字体颜色
+        BackGroundColor:颜色;  //弹窗背景色
+        Button{  //弹窗的按钮（此按钮属性需与通用按钮属性分开）
+            FrameColor:颜色;  //按钮的边框颜色
+            BackGroundColor:颜色;  //按钮的背景颜色，此属性可忽略，默认使用弹窗背景色
+            FontColor:颜色;  //按钮文字的颜色，此属性可忽略，默认使用按钮的边框颜色
+        }
+    }
+}
+
+//被“//-- --//”注释掉的为ThemeColor属性所包含的属性

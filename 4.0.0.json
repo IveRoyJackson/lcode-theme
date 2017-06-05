@@ -1,0 +1,58 @@
+{
+  {
+    "CopyRightInfo": [
+      {
+        "Name": "作者姓名"
+      },
+      {
+        "EMail": "作者邮箱"
+      },
+      {
+        "Date": "创作日期"
+      },
+      {
+        "Works": "作品名称"
+      },
+      {
+        "Edition": "作品版本号"
+      },
+      {
+        "url": "链接",
+        "WebSite": "作者网站title"
+      }
+    ]
+  }
+  {
+    "ThemeColor": "请填写启动器官方提供的配色方案"
+  }
+
+  {
+    "Show": [
+      {
+        "img": "URL"
+      },
+      {
+        "WorkName": " "
+      }，
+      {
+        "Introduce": " "
+      }
+    ]
+  }
+  {
+    "BackGroundMusic": "URL"
+  }
+  {
+    "BackGround": "URL"
+  }
+  {
+    "HeadPortrait": [
+      {
+        "Img": "URL"
+      },
+      {
+        "BackGroundColor": " "
+      }
+    ]
+  }
+}

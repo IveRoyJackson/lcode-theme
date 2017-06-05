@@ -1,0 +1,37 @@
+//这是一个代码示例
+!==LCODE-LTHEME EDITION 1.1.0==!  //申明代码版本
+CopyRightInfo{        //版权信息
+    Name:作者姓名;
+    EMail:作者邮箱;
+    Date:创作日期;
+    Works:作品名称;
+    Edition:作品版本号;
+    WebSite:作者网站链接;//可选填
+}
+Show{  //展示参数 1.1.0更新内容
+    Img:('图片地址');
+    Works:作品名称;
+    Introduce:作品介绍;
+}
+BackGroundMusic:('音乐地址');  //启动器背景音乐 1.0.2更新内容
+BackGround:('图片地址');//启动器整体背景图片
+FrameColor:'颜色';//启动器整体边框颜色
+BackGroundColor:'颜色';//启动器主题颜色（建议与背景图片一致）
+HeadPortrait{   //默认头像
+    Img:('图片地址');//默认头像图片
+    BackGroundColor:'颜色';//默认头像背景色
+}   
+ButtonColor{  //按钮样式
+    Activation{  //拥有鼠标焦点时
+        BackGroundColor:'颜色';   //背景色
+        FontColor:'颜色';  //字体色
+    }
+    NotActive{  //未拥有鼠标焦点时
+        BackGroundColor:'颜色';  //背景色
+        FontColor:'颜色';  //字体色
+    }
+    Click{  //鼠标点击时（此属性可忽略）
+        BackGroundColor:'颜色';  //背景色
+        FontColor:'颜色';  //字体色
+    }
+}
